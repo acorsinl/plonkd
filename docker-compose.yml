@@ -1,0 +1,5 @@
+services:
+  plonkd:
+    image: plonkd:latest
+    container_name: plonkd
+    restart: unless-stopped
