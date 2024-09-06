@@ -1,4 +1,4 @@
-# Simple IP Server
+# Plonkd
 
 A simple Go server that responds with the request origin IP. This project was started because I was tired of dynamic DNS services not being reliable enough.
 
@@ -11,20 +11,20 @@ A simple Go server that responds with the request origin IP. This project was st
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/simple-ip-server.git
-    cd simple-ip-server
+    git clone https://github.com/acorsinl/plonkd.git
+    cd plonkd
     ```
 
 2. Build the project:
     ```sh
-    go build -o simple-ip-server
+    go build -o plonkd
     ```
 
 ## Usage
 
 1. Run the server:
     ```sh
-    ./simple-ip-server
+    ./plonkd
     ```
 
 2. Make a request to the server:
